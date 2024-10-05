@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Ubuntu:ital,wght@0,500;1,400;1,700&display=swap');
+
+:root {
+    --primary-color: #084b83;
+    --secondary-color: #42bfdd;
+    --accent1-color: #bbe6e4;
+    --accent2-color: #f0f6f6;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+}
+
+header img {
+    width: 150px;
+}
+
+nav a {
+    color: var(--accent2-color);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30%;
+    color: var(--accent2-color);
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+article {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    background-color:var(--accent2-color)
+}
+
+article img {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 10px 0;
+}
+
+footer nav a {
+    margin: 0 10px;
+}
+
+footer nav img {
+    width: 30px;
+    height: 30px;
+}
