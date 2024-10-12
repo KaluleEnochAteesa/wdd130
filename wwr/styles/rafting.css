@@ -22,7 +22,7 @@ header {
 }
 
 header img {
-	width: 150px;
+    width: 150px;
 }
 
 header h1 {
@@ -39,7 +39,6 @@ header nav {
 
 header nav a {
     color: var(--accent2-color);
-    
     margin: 0 10px;
     font-weight: bold;
 }
@@ -60,7 +59,6 @@ header nav a {
     position: absolute;
     top: 5%;
     left: 30%;
-    
     color: var(--accent2-color);
     font-size: 4rem;
     font-family: 'Ubuntu', sans-serif;
@@ -71,13 +69,13 @@ header nav a {
     top: 60%;
     left: 60%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding: 0px;
-    background-color:var(--accent1-color) ;
+    background-color: var(--accent1-color);
 }
 
 .history {
-    flex: 1 ;
+    flex: 1;
     margin: 10px;
     background-color: var(--accent2-color);
     padding: 20px;
@@ -118,7 +116,7 @@ article img, .history img {
 }
 
 .adventures figure {
-    flex: 1 1 ;
+    flex: 1 1;
     margin: 10px;
     text-align: center;
 }
@@ -133,11 +131,18 @@ footer {
     color: var(--accent2-color);
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
 }
 
 footer nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 footer nav a {
@@ -148,6 +153,7 @@ footer nav img {
     width: 30px;
     height: 30px;
 }
+
 
 
 
