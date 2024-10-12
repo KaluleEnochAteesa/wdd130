@@ -14,7 +14,9 @@ body {
 }
 
 header {
-    
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
     padding: 10px 20px;
     background-color: var(--primary-color);
 }
@@ -23,7 +25,12 @@ header img {
     width: 150px;
 }
 
-nav a {
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav a {
     color: var(--accent2-color);
     text-decoration: none;
     margin: 0 10px;
@@ -34,29 +41,28 @@ nav a {
     position: relative;
     width: 100%;
     height: auto;
-    
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-    
 }
 
 .hero h1 {
     position: absolute;
     top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
     color: var(--accent2-color);
     font-size: 4rem;
     font-family: 'Ubuntu', sans-serif;
 }
 
 article {
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    background-color:var(--accent2-color)
+    position: relative;
+    padding: 20px;
+    background-color: var(--accent2-color);
 }
 
 article img {
@@ -71,10 +77,32 @@ section {
     padding: 20px;
 }
 
+.adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.adventures figure {
+    flex: 1 1 calc(20% - 10px);
+    margin: 10px;
+    text-align: center;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+}
+
 footer {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     padding: 10px 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer nav a {
@@ -85,3 +113,4 @@ footer nav img {
     width: 30px;
     height: 30px;
 }
+
