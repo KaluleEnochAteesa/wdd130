@@ -255,7 +255,7 @@ header h1 {
 }
 
 #hero {
-    background: url('/wwr/images/heroimage.webp') no-repeat center center/cover;
+    background: url('\wwr\images\heroimage.webp') no-repeat center center/cover;
     color: var(--accent2-color);
     text-align: center;
     padding: 5rem 1rem;
